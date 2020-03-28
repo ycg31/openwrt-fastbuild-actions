@@ -59,13 +59,13 @@ name: Build OpenWrt
 on:
   deployment:
   repository_dispatch:
-  push:
-    paths-ignore:
-    - imgs
-    - README.md
-    - README_CN.md
-    - LICENSE
-    - .dockerignore
+  #push:
+  #  paths-ignore:
+  #  - imgs
+  #  - README.md
+  #  - README_CN.md
+  #  - LICENSE
+  #  - .dockerignore
   ## If you want to use 'watch', 'schedule' events, make sure you also have changed the jobs' `if` condition.
   ## For 'schedule', see examples in: https://crontab.guru/examples.html
   ##     e.g. every sunday midnight: '0 0 * * 0' every midnight: '0 0 * * *'
